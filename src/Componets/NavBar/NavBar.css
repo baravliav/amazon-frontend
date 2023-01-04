@@ -1,0 +1,78 @@
+.navbar_component {
+    width: 100vw;
+    height: 60px;
+    background-color: #131A22;
+    display: flex;
+} 
+
+.navbar_logo {
+    background: url("sprite_350x.png") no-repeat -4px -50px;
+    width: 120px;
+    height: 31px;
+    margin: 14px;
+}
+
+.navbar_location {
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.navbar_locator {
+    display: flex;
+    margin: 17px 0px;
+}
+
+.navbar_locatorImage {
+    background: url('sprite_350x.png') no-repeat -70px -305px;
+	width: 23px;
+	height: 22px;
+}
+
+.navbar_searchComponent {
+    display: flex;
+}
+
+
+.navbar_searchBox {
+    height: 35px;
+    width: 750px;
+    margin-top: 8px;
+    margin-left: 40px;
+}
+
+.navbar_searchboxdiv {
+    background-color: #FEBE68;
+    height: 40px;
+    width: 48px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 8px;
+}
+
+.navbar_searchIcon {
+    background: url('sprite_350x.png') no-repeat -9px -289px;
+	width: 23px;
+	height: 23px;
+    margin: 9px;
+}
+
+.navBar_signIn {
+    color: white;
+    width: 120px;
+    margin-top: 13px;
+    margin-left: 60px;
+}
+
+.avbar_cart {
+    color: white;
+    display:flex;
+    margin-top: 15px;
+}
+
+.cart_image {
+    background: url('sprite_350x.png') no-repeat -217px -336px;
+	width: 43px;
+	height: 30px;
+    margin-top: 15px;
+    margin-left: 510px;
+}
